@@ -1,0 +1,85 @@
+        
+    html {
+        min-width: 100%;
+        min-height: 100%;
+        background-image: url(city-lights.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+
+/* Styling the Body element i.e. Color,
+
+        Font, Alignment */
+        body {
+           
+            font-family: Verdana;
+            text-align: center;
+
+        }
+
+        h1 {
+            color: #05c46b;
+            -webkit-text-stroke-width: 1px;
+            -webkit-text-stroke-color: white;
+            font-size: 40px;
+        }
+ 
+        /* Styling the Form (Color, Padding, Shadow) */
+        form {
+            background-color: #fff;
+            max-width: 500px;
+            margin: 50px auto;
+            padding: 30px 20px;
+            box-shadow: 20px 20px 40px rgba(0, 255, 55, 0.5);
+            border-radius: 2%;
+        }
+ 
+        /* Styling form-control Class */
+        .form-control {
+            text-align: left;
+            margin-bottom: 25px;
+        }
+ 
+        /* Styling form-control Label */
+        .form-control label {
+            display: block;
+            margin-bottom: 10px;
+        }
+ 
+        /* Styling form-control input,
+        select, textarea */
+        .form-control input,
+        .form-control select,
+        .form-control textarea {
+            border: 1px solid #777;
+            border-radius: 2px;
+            font-family: inherit;
+            padding: 10px;
+            display: block;
+            width: 95%;
+        }
+ 
+        /* Styling form-control Radio
+        button and Checkbox */
+        .form-control input[type="radio"],
+        .form-control input[type="checkbox"] {
+            display: inline-block;
+            width: auto;
+        }
+ 
+        /* Styling Button */
+        button {
+            background-color: #05c46b;
+            border: 1px solid #777;
+            border-radius: 2px;
+            font-family: inherit;
+            font-size: 21px;
+            display: block;
+            width: 50%;
+            margin-top: 50px;
+            margin-bottom: 20px;
+            align-items: center;
+            margin-left: 120px;
+            
+        }

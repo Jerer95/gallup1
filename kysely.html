@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale-1">
+    <link rel="stylesheet" type="text/css" href="kysely.css">
+    <title>Survey Form</title>
+</head>
+<body>
+    <h1>GALLUP</h1>
+  
+    <!-- Create Form -->
+    <form id="form">
+ 
+        <!-- Details -->
+        <div class="form-control">
+            <label for="name" id="label-name">
+                <strong> Nimi </strong>
+            </label>
+ 
+            <!-- Input Type Text -->
+            <input type="text"
+                   id="name"
+                   placeholder="Etunimi Sukunimi" />
+        </div>
+  
+        <div class="form-control">
+            <label for="email" id="label-email">
+            <strong>    Sähköposti</strong>
+            </label>
+ 
+            <!-- Input Type Email-->
+            <input type="email"
+                   id="email"
+                   placeholder="Sähköposti" />
+        </div>
+  
+        <div class="form-control">
+            <label for="age" id="label-age">
+            <strong>Ikä</strong>
+            </label>
+ 
+            <!-- Input Type Text -->
+            <input type="text"
+                   id="age"
+                   placeholder="Ikä" />
+        </div>
+  
+        <div class="form-control">
+            <label for="role" id="label-role">
+                <strong>Nyky tilanteesi</strong>
+            </label>
+             
+            <!-- Dropdown options -->
+            <select name="role" id="role">
+                <option value="student">Opiskelija</option>
+                <option value="intern">Vanki</option>
+                <option value="professional">
+                    Töissä
+                </option>
+                <option value="other">Muu</option>
+            </select>
+        </div>
+  
+        <div class="form-control">
+            <label>
+                <strong>Would you recommed GeeksforGeeks
+                to a friend?</strong>
+            </label>
+ 
+            <!-- Input Type Radio Button -->
+            <label for="recommed-1">
+                <input type="radio"
+                       id="recommed-1"
+                       name="recommed">Yes</input>
+            </label>
+            <label for="recommed-2">
+                <input type="radio"
+                       id="recommed-2"
+                       name="recommed">No</input>
+            </label>
+            <label for="recommed-3">
+                <input type="radio"
+                       id="recommed-3"
+                       name="recommed">Maybe</input>
+            </label>
+        </div>
+  
+        <div class="form-control">
+            <label>
+                <strong> Kielet ja ohjelmat mitä osaat </strong>
+                
+            </label>
+            <!-- Input Type Checkbox -->
+            <label for="inp-1">
+                <input type="checkbox"
+                       name="inp">C</input></label>
+            <label for="inp-2">
+                <input type="checkbox"
+                       name="inp">C++</input></label>
+            <label for="inp-3">
+                <input type="checkbox"
+                       name="inp">C#</input></label>
+            <label for="inp-4">
+                <input type="checkbox"
+                       name="inp">Java</input></label>
+            <label for="inp-5">
+                <input type="checkbox"
+                       name="inp">Python</input></label>
+            <label for="inp-6">
+                <input type="checkbox"
+                       name="inp">JavaScript</input></label>
+            <label for="inp-7">
+                <input type="checkbox"
+                       name="inp">React</input></label>
+            <label for="inp-7">
+                <input type="checkbox"
+                       name="inp">Angular</input></label>
+            <label for="inp-7">
+                <input type="checkbox"
+                       name="inp">Django</input></label>
+            <label for="inp-7">
+                <input type="checkbox"
+                       name="inp">Spring</input></label>
+        </div>
+  
+        <div class="form-control">
+            <label for="comment">
+               <strong>Kommentteja ja ehdotuksia</strong> 
+            </label>
+ 
+            <!-- multi-line text input control -->
+            <textarea name="comment" id="comment"
+                placeholder="Lisää kommenttisi tähän">
+            </textarea>
+        </div>
+  
+        <!-- Multi-line Text Input Control -->
+        <button type="submit" value="submit">
+            Lähetä
+        </button>
+    </form>
+</body>
+  
+</html>
